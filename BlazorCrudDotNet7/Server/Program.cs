@@ -1,4 +1,5 @@
 using BlazorCrudDotNet7.Server.Data;
+using BlazorCrudDotNet7.Server.Services.ProductService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<DataContext>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 
