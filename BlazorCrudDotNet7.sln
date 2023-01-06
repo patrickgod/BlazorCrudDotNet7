@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrudDotNet7.Server", "BlazorCrudDotNet7\Server\BlazorCrudDotNet7.Server.csproj", "{70D07531-2296-4DD4-910F-AAC5EE3713AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCrudDotNet7.Server", "BlazorCrudDotNet7\Server\BlazorCrudDotNet7.Server.csproj", "{70D07531-2296-4DD4-910F-AAC5EE3713AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrudDotNet7.Client", "BlazorCrudDotNet7\Client\BlazorCrudDotNet7.Client.csproj", "{829EFD9E-E5BE-4834-8E3A-A68516DA76B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCrudDotNet7.Client", "BlazorCrudDotNet7\Client\BlazorCrudDotNet7.Client.csproj", "{829EFD9E-E5BE-4834-8E3A-A68516DA76B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrudDotNet7.Shared", "BlazorCrudDotNet7\Shared\BlazorCrudDotNet7.Shared.csproj", "{C32EDC19-6FB5-42D8-A218-5A6D55A1AE41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCrudDotNet7.Shared", "BlazorCrudDotNet7\Shared\BlazorCrudDotNet7.Shared.csproj", "{C32EDC19-6FB5-42D8-A218-5A6D55A1AE41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
